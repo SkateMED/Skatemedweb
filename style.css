@@ -1,92 +1,96 @@
 /*Empezaré con el diseño de la estructura básica de todas las páginas */
-body{
-background-color: #1a1a1a;
-color: #f5f5f5;}
+body {
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+}
 header {
-text-align: center;
-background-color: #1a1a1a;
-color: orangered;
-padding: 5px;
-margin: 15px;
-font-family: 'Cooper Black';
+  text-align: center;
+  background-color: #1a1a1a;
+  color: orangered;
+  padding: 5px;
+  margin: 15px;
+  font-family: "Cooper Black";
 }
 nav {
-background-color:#cca789;
-text-align: center;
-padding: 10px;
+  background-color: #cca789;
+  text-align: center;
+  padding: 10px;
 }
-nav ul li{
-font-family: 'Banchschrift';
-margin: 0 15px;
-font-size: 20px;
+nav ul li {
+  font-family: "Banchschrift";
+  margin: 0 15px;
+  font-size: 20px;
 }
 nav ul {
-font-family: 'Banchschrift';
-display: flex;
-justify-content: center;
-list-style-type: none;  
-margin:  20px;
+  font-family: "Banchschrift";
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 20px;
 }
 nav ul li a {
-text-decoration:wavy underline;
-color: black;
-text-decoration-color:orangered;
-font-family:'Berlin Sans FB';
+  text-decoration: wavy underline;
+  color: black;
+  text-decoration-color: orangered;
+  font-family: "Berlin Sans FB";
 }
-footer{
-text-align: center;
+footer {
+  text-align: center;
 }
-
 
 /*Ahora sigue una por una el contenido principal de las páginas */
-.inicio h2{
-    font-family:'Cooper Black';
-text-align: center;
+.inicio h2 {
+  font-family: "Cooper Black";
+  text-align: center;
 }
 .imagen {
-    display: flex;
-    font-family:'Berlin Sans FB';
-    gap:10px;
-    margin:20px;
+  display: flex;
+  font-family: "Berlin Sans FB";
+  gap: 10px;
+  margin: 20px;
 }
-.parrafos{
-display:flex;
-flex-direction: column;}
-.parrafos ul :hover{
-color:red}
-nav ul li :hover{
-color:#ffffff;}
+.parrafos {
+  display: flex;
+  flex-direction: column;
+}
+.parrafos ul :hover {
+  color: red;
+}
+nav ul li :hover {
+  color: #ffffff;
+}
 
 /*Nosotros*/
-.nosotros ul li a:hover{
-color:red}
-
-/*Productos*/
-.productos h2{
-text-align: center;}
-.materia{
-background-image: url(skate_store.png);
-background-repeat:no-repeat
+.nosotros ul li a:hover {
+  color: red;
 }
 
-.productos{
-color:white;
-font-family:'Berlin Sans FB';
-font-size: larger;
+/*Productos*/
+.productos h2 {
+  text-align: center;
+}
+.materia {
+  background-image: url(skate_store.png);
+  background-repeat: no-repeat;
+}
+
+.productos {
+  color: white;
+  font-family: "Berlin Sans FB";
+  font-size: larger;
 }
 
 /*Aquí dejare el responsive*/
-@media(max-width: 500px){
-    .materia{
-   width: 800px; 
-   background-repeat:no-repeat;
-    }
+@media (max-width: 500px) {
+  .materia {
+    width: 800px;
+    background-repeat: no-repeat;
+  }
 }
-@media(max-width: 400px){
-    .materia{
-        width:fit-content;
-        background-size:cover;
-        background-repeat:no-repeat;
-   
-    }
+@media (max-width: 400px) {
+  .materia {
+    width: fit-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
