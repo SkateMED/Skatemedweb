@@ -1,0 +1,13 @@
+name: Primer flujo de trabajo
+
+on: [push]
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v3
+
+      - name: Mostrar archivos del proyecto
+        run: ls -R
