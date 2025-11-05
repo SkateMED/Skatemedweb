@@ -53,16 +53,16 @@ footer {
   display: flex;
   flex-direction: column;
 }
-.parrafos ul :hover {
-  color: red;
+.parrafos ul li :hover {
+  color: blue;
 }
 nav ul li :hover {
   color: #ffffff;
 }
 
 /*Nosotros*/
-.nosotros ul li a:hover {
-  color: red;
+.nosotros ul li :hover {
+  color: blue;
 }
 
 /*Productos*/
