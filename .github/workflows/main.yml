@@ -1,0 +1,12 @@
+name: Prueba simple
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar un mensaje
+        run: echo "GitHub Actions está funcionando" 
